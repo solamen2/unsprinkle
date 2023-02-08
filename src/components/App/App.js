@@ -7,6 +7,9 @@ import Hero from '../Hero';
 import MainContent from '../MainContent';
 import Footer from '../Footer';
 
+import "@fontsource/inter/300.css";
+import "@fontsource/inter/900.css";
+
 const App = () => {
   return (
     <>
