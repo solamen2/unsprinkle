@@ -45,17 +45,21 @@ const Image = styled.img`
 `;
 
 const Tags = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px 0px;
 `;
 
 const Tag = styled.li`
   padding: 4px 8px;
+  margin-right: 8px;
   background: var(--color-gray-300);
   font-size: 0.875rem;
   font-weight: 475;
   color: var(--color-gray-800);
+  
+  display: inline;
 `;
 
 export default PhotoGridItem;
