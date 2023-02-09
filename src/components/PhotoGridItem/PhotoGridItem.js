@@ -14,6 +14,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
           />
           <Image
             src={src}
+            alt={alt}
             srcSet={ imageBase + '.jpg 1x, ' + imageBase + '@2x.jpg 2x, ' + imageBase + '@3x.jpg 3x'}
           />
         </picture>
